@@ -1,0 +1,31 @@
+package com.pti.demo;
+
+public class App {
+
+	public static void main(String[] args) {
+		// Nested Loops
+		/*
+		 * Normal Loop
+		 * 1
+		 * 2
+		 * 3
+		 * 4*/
+		for(int i=1;i<5;i++) {
+			System.out.println(i);
+		}
+		
+		/*
+		 * Nested loop
+		 * 1 2 3 4
+		 * 1 2 3 4
+		 * 1 2 3 4
+		 * 1 2 3 4
+		 * */
+		for(int i=1;i<5;i++) {
+			System.out.println("1 2 3 4");
+		}
+
+		
+	}
+
+}

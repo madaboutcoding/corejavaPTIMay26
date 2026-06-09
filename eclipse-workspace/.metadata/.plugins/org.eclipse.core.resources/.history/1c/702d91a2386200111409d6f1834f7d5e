@@ -1,0 +1,22 @@
+package com.pti.banking;
+
+import java.util.Scanner;
+
+import com.pti.banking.model.BankAccount;
+
+public class BankingApp {
+
+	public static void main(String[] args) {
+		BankAccount account1=new BankAccount("John Doe",10000.00);
+		Scanner scanner=new Scanenr (System.in);
+		boolean test=true;
+		while(test) {
+			System.out.println("Choose the Operation: ");
+			System.out.println("1. Check Balance");
+			System.out.println("2. Withdraw Amount");
+			System.out.println("3. Deposit Amount");
+		}
+		scanner.close();
+	}
+
+}

@@ -1,0 +1,39 @@
+package com.pti.demo;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		boolean test=true;
+		while(test) {
+			System.out.println("Loop started");
+			
+			System.out.println("Enter odd number");
+			final int oddNumber=Integer.parseInt(scanner.nextLine());
+			
+			System.out.println("Enter double  number");
+			final double doubleNumber=Double.parseDouble(scanner.nextLine());
+			
+			System.out.println("Enter Float number");
+			final float floatNumber=Float.parseFloat(scanner.nextLine());
+			
+			System.out.println("Odd Number:"+oddNumber);
+			System.out.println("Double Number:"+doubleNumber);
+			System.out.println("Float Number:"+floatNumber);
+			
+			System.out.println("Do you want to continue? y/n");
+			final String choice=scanner.nextLine();
+			if(choice.equalsIgnoreCase("N")) {
+				System.out.println("Ending the loop");
+				test=false;
+			}
+			
+		}
+		
+		scanner.close();
+
+	}
+
+}

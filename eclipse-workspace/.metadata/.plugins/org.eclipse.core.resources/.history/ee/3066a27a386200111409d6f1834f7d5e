@@ -1,0 +1,12 @@
+package com.pti.banking;
+
+import com.pti.banking.model.BankAccount;
+
+public class BankingApp {
+
+	public static void main(String[] args) {
+		BankAccount account1=new BankAccount("John Doe",10000.00);
+
+	}
+
+}

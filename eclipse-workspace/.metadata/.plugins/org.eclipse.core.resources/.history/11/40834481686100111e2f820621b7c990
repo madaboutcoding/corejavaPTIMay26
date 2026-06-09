@@ -1,0 +1,28 @@
+package com.pti.demo;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+		// Sorting of Array Element - Bublle Sort
+		int [] numbers=null;
+		try {
+			Scanner scanner=new Scanner(System.in);
+			System.out.println("Enter total number of elements:");
+			int maxSize=scanner.nextInt();
+			numbers=new int[maxSize];
+			System.out.println("Enter the numbers");
+			for(int i=0;i<maxSize;i++) {
+				numbers[i]=scanner.nextInt();
+			}
+			
+			
+			scanner.close();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+}

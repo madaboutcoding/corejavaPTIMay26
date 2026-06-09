@@ -1,0 +1,21 @@
+package com.pti.greetingapp.model;
+
+public class Greeting {
+	
+	public String message="Good Morning";//dataMember or instanceVariable
+	
+	public String greet() {
+		return this.message; //this->current object
+	}
+}
+
+/*
+ * OOP has four pillar
+ * Encapsulation: 
+	Is the process of binding data (variables) and methods (functions)
+	together into a single unit (class) and restricting direct access 
+	to the data using access modifier[default,private,protected,public]
+ *Abstraction:
+ *Inheritance:
+ *Polymorphism:
+*/

@@ -1,0 +1,29 @@
+package com.pti.demo.model;
+
+public class Product {
+
+	private int pid;
+	private String pname;
+	private double unitPrice;
+	
+	//alt+s+c -> default constructor
+	public Product() {
+		super();		
+	}
+	//alt+s+a -> default constructor
+	public Product(int pid, String pname, double unitPrice) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.unitPrice = unitPrice;
+	}
+	//alt+s+a -> default constructor
+	public Product(String pname, double unitPrice) {
+		super();
+		this.pname = pname;
+		this.unitPrice = unitPrice;
+	}
+	
+	
+	
+}

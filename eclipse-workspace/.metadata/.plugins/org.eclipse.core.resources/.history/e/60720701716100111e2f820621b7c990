@@ -1,0 +1,47 @@
+package com.pti.app;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+		int [] numbers=null;
+		int maxSize=0;
+		try {
+			Scanner scanner=new Scanner(System.in);
+			System.out.println("Enter Size of an array");
+			maxSize=scanner.nextInt();
+			numbers=new int[maxSize];
+			if(numbers!=null)
+				System.out.println("Array of numbers created");
+			
+			System.out.println("Enter the numbers");
+			for(int i=0;i<maxSize;i++) {
+				numbers[i]=scanner.nextInt();
+			}
+			printArray(numbers);
+			
+			scanner.close();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+	private static void printArray(int[] numbers) {
+		for(int i:numbers) {
+			System.out.println(i);
+		}
+		
+	}
+
+}
+
+/*
+ * Accepting user inputs for 
+ * Array size
+ * Array element
+ * printing the array value 
+ * sorting 
+ * printing the sorted array 
+ */

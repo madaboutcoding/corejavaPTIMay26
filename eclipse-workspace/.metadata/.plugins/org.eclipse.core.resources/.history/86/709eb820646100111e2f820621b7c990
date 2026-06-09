@@ -1,0 +1,17 @@
+package com.pti.demo;
+
+public class App {
+
+	public static void main(String[] args) {
+		// Creating arrays- Double 
+//		double [] prices=new double[5]; // 1st way
+//		double []prices=null;//null array not allocated any memory
+		
+		double [] prices= {199.00,299.00,29.09,45.99};//explicitly giving values
+		
+		for(int i=0;i<prices.length;i++) {
+			System.out.println("Prices["+i+"]="+prices[i]);
+		}
+	}
+
+}

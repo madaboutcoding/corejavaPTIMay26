@@ -1,0 +1,16 @@
+package com.pti.banking;
+
+import com.pti.banking.model.BankAccount;
+
+public class BankingApp {
+
+	public static void main(String[] args) {
+		BankAccount account1=new BankAccount("John Doe",10000.00);
+		System.out.println("Choose the Operation: ");
+		System.out.println("1. Check Balance");
+		System.out.println("2. Withdraw Amount");
+		System.out.println("3. Deposit Amount");
+		boolean test=true;
+	}
+
+}

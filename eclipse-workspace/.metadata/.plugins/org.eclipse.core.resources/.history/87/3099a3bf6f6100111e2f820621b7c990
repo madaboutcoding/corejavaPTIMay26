@@ -1,0 +1,19 @@
+package com.pti.app;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+/*
+ * Accepting user inputs for 
+ * Array size
+ * Array element
+ * printing the array value 
+ * sorting 
+ * printing the sorted array 
+ */

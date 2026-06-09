@@ -1,0 +1,31 @@
+package com.pti.app;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+		int [] numbers=null;
+		int maxSize=0;
+		try {
+			Scanner scanner=new Scanner(System.in);
+			System.out.println("Enter Size of an array");
+			maxSize=scanner.nextInt();
+			numbers=new int[maxSize];
+			scanner.close();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+}
+
+/*
+ * Accepting user inputs for 
+ * Array size
+ * Array element
+ * printing the array value 
+ * sorting 
+ * printing the sorted array 
+ */

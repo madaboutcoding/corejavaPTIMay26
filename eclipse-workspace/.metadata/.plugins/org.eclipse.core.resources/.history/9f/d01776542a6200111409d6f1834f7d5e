@@ -1,0 +1,16 @@
+package com.pti.demo;
+
+import com.pti.demo.model.Product;//ctrl+shift+o import
+
+
+
+public class App {
+
+	public static void main(String[] args) {
+		// Java Class creation with Best Practice
+		//Example of overloaded constructor with 3 arguments
+		Product p1=new Product(1,"Maggie",20.0);
+		System.out.println(p1);
+	}
+
+}
