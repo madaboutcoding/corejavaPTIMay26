@@ -1,5 +1,0 @@
-package com.pti.banking.model;
-
-public class SalaryAccount extends BankAccount {
-
-}

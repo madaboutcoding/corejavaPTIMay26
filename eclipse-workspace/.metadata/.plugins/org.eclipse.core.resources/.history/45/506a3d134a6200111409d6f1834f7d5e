@@ -1,7 +1,0 @@
-package com.pti.banking.model;
-
-public class SavingAccount extends BankAccount {
-
-	
-
-}

@@ -4,4 +4,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.pti.greetingapp.GreetingApp"/>
     <fullyQualifiedTypeName name="com.pti.greetingapp.model.Greeting"/>
+    <fullyQualifiedTypeName name="com.pti.banking.model.BankAccount"/>
+    <fullyQualifiedTypeName name="com.pti.banking.model.SavingAccount"/>
+    <fullyQualifiedTypeName name="com.pti.banking.m2.CurrentAccount"/>
 </qualifiedTypeNameHistroy>
